@@ -1,0 +1,58 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 1.6rem;
+  color: #222;
+  line-height: 1.7;
+  box-sizing: border-box;
+  background-image: linear-gradient(to right, #00b09b, #96c93d);
+}
+
+.main {
+  height: 100vh;
+  padding: 2rem;
+}
+
+.container {
+  height: 100%;
+  background-color: #ddd;
+  opacity: 0.8;
+  border-radius: 10px;
+  display: flex;
+  gap: 1rem;
+  overflow-y: auto;
+}
+
+.nav {
+  flex: 25rem;
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+
+.nav a:link {
+  text-decoration: none;
+}
+
+.content {
+  flex-grow: 1;
+  padding: 2rem;
+  overflow-x: hidden;
+}
+
+.content .footer {
+  text-align: center;
+  font-size: 1rem;
+  opacity: 0.2;
+}
