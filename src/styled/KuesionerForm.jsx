@@ -30,6 +30,10 @@ const KuesionerForm = styled.form`
   }
 
   .kues {
+    &__ind {
+      margin-bottom: 3rem;
+    }
+
     &__ind-title {
       text-transform: uppercase;
       text-decoration: underline;
@@ -58,8 +62,7 @@ const KuesionerForm = styled.form`
     width: 100%;
     padding: 1rem;
 
-    font-size: 1.8rem;
-    text-transform: uppercase;
+    font-size: 1.6rem;
   }
 `;
 

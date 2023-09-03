@@ -7,6 +7,7 @@ import Rekapitulasi from "./pages/Rekapitulasi";
 import TotalSkor from "./pages/TotalSkor";
 import TotalIndex from "./pages/TotalIndex";
 import { ToastContainer } from "react-toastify";
+import TingkatKepuasan from "./pages/TingkatKepuasan";
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
             <Route path="/Rekapitulasi" element={<Rekapitulasi />} />
             <Route path="/Total/Skor" element={<TotalSkor />} />
             <Route path="/Total/Index" element={<TotalIndex />} />
+            <Route path="/Tingkatkepuasan" element={<TingkatKepuasan />} />
           </Routes>
         </BrowserRouter>
       </div>

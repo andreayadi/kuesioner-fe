@@ -12,13 +12,16 @@ const Navigations = () => {
         <NavStyled>DESKRIPSI RESPONDEN</NavStyled>
       </Link>
       <Link to={"/rekapitulasi"}>
-        <NavStyled>REKAPITULASI PILIHAN RESPONDEN</NavStyled>
+        <NavStyled>RATA-RATA PILIHAN RESPONDEN</NavStyled>
       </Link>
       <Link to={"/total/skor"}>
         <NavStyled>TOTAL SKOR</NavStyled>
       </Link>
       <Link to={"/total/index"}>
         <NavStyled>TOTAL INDEX</NavStyled>
+      </Link>
+      <Link to={"/tingkatkepuasan"}>
+        <NavStyled>TINGKAT KEPUASAN</NavStyled>
       </Link>
     </nav>
   );
